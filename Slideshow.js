@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-types';
+import {PropTypes} from 'prop-types';
 import {
   Image,
   Text,
@@ -366,7 +366,7 @@ const iconArrow = function (iconHeight) {
   return {
      width: 0,
      height: 0,
-     margin: 5,
+     margin: 0,
      backgroundColor: 'transparent',
      borderStyle: 'solid',
      borderTopColor: 'transparent',
